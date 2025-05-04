@@ -1,36 +1,10 @@
-{
-  "name": "HelloWorld",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "lint": "eslint .",
-    "start": "react-native start",
-    "test": "jest"
-  },
-  "dependencies": {
-    "react": "18.3.1",
-    "react-native": "0.75.5"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@babel/preset-env": "^7.20.0",
-    "@babel/runtime": "^7.20.0",
-    "@react-native/babel-preset": "0.75.5",
-    "@react-native/eslint-config": "0.75.5",
-    "@react-native/metro-config": "0.75.5",
-    "@react-native/typescript-config": "0.75.5",
-    "@types/react": "^18.2.6",
-    "@types/react-test-renderer": "^18.0.0",
-    "babel-jest": "^29.6.3",
-    "eslint": "^8.19.0",
-    "jest": "^29.6.3",
-    "prettier": "2.8.8",
-    "react-test-renderer": "18.3.1",
-    "typescript": "5.0.4"
-  },
-  "engines": {
-    "node": ">=18"
-  }
+const result = Math.floor(Math.random() * 3); // 生成0到2之間的隨機數
+switch(result) {
+  case 0:
+    return '大吉：當你走過樹的時候，樹告訴你要深呼吸；當你看到花的時候，花告訴你要深呼吸；連天空的每一片雲朵。都在深呼吸著飄飛，滿世界都是深呼吸的消息，你聽見了嗎？';
+  case 1:
+    return '中吉：在電腦前坐一整天，亂翻一些雜七雜八的消息，最後，心裡會七上八下，彷彿懸在空中，沒有個落處，那是一種不安。當你發現你又坐在電腦前準備消耗時日的時候，個最簡單的方式――打掃房間。在掃的時候，認真觀察自己打掃的心，隨著屋子越變越乾淨，心也隨著秩序井然。
+';
+  case 2:
+    return '小吉：匆匆忙忙，有時會忘掉大事。稍稍放緩速度，便有餘暇注意呼吸、步伐、心態，可以有餘力隨時調整自己，應付不可預知的挑戰的到來。';
 }
